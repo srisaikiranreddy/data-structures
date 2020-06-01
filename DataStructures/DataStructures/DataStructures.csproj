@@ -8,5 +8,9 @@
   <ItemGroup>
     <Folder Include="Strings\" />
     <Folder Include="Math\" />
+    <Folder Include="Sort\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Sort\bubble.cs" />
   </ItemGroup>
 </Project>
