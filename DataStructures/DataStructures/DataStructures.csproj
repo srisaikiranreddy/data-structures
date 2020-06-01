@@ -10,6 +10,11 @@
     <Folder Include="Math\" />
     <Folder Include="Sort\" />
     <Folder Include="Search\" />
+    <Folder Include="Stacks\" />
+    <Folder Include="Queues\" />
+    <Folder Include="LinkedLists\" />
+    <Folder Include="Graphs\" />
+    <Folder Include="Trees\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Sort\bubble.cs" />
