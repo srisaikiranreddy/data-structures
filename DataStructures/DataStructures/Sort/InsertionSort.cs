@@ -13,7 +13,7 @@ namespace DataStructures.Sort
         //Step 4 − Shift all the elements in the sorted sub-list that is greater than the value to be sorted
         //Step 5 − Insert the value
         //Step 6 − Repeat until list is sorted
-        static int[] Sort(int[] unSortedArray)
+        static int[] SortNumbers(int[] unSortedArray)
         {
             int holePosition = 0;
             //Looping through array

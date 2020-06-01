@@ -23,5 +23,10 @@ namespace DataStructures.Search
             }
             return numberFound;
         }
+
+        static string[] LinearSearchWord(string searchWord, string sentence)
+        {
+            return null;
+        }
     }
 }

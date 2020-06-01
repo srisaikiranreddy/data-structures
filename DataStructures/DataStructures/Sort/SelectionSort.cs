@@ -7,7 +7,7 @@ namespace DataStructures.Sort
         {
         }
 
-        static int[] Sort(int[] unSortedArray)
+        static int[] SortNumbers(int[] unSortedArray)
         {
             int minimumPosition = 0;
             for (int write = 0; write < unSortedArray.Length; write++)
