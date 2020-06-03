@@ -7,6 +7,11 @@ namespace DataStructures.Math
     {
         public EvenNumber()
         {
+            Console.WriteLine("\n Print Even Numbers 1 to 100");
+            foreach(var n in GetListEvenNumbers(100))
+            {
+                Console.Write(n+" ");
+            }
         }
 
         static bool CheckEvenNumber(int N)

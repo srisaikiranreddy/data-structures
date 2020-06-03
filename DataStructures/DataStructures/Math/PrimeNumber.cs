@@ -7,6 +7,11 @@ namespace DataStructures.Math
     {
         public PrimeNumber()
         {
+            Console.WriteLine("\n Print Prime Numbers 1 to 100");
+            foreach (var n in GetListofPrimeNumbers(100))
+            {
+                Console.Write(n + " ");
+            }
         }
 
         static bool CheckPrimeNumber(int N)
@@ -30,6 +35,17 @@ namespace DataStructures.Math
             {
                 if (CheckPrimeNumber(n))
                     primeNumbers.Add(n);
+            }
+            return primeNumbers;
+        }
+
+        static List<int> GetListofPrimeNumbers(int N)
+        {
+            List<int> primeNumbers = new List<int>();
+            for (int i=1; i<= N;i++)
+            {
+                if (CheckPrimeNumber(i))
+                    primeNumbers.Add(i);
             }
             return primeNumbers;
         }

@@ -7,8 +7,9 @@ namespace DataStructures.Strings
     {
         public PandigitalConcatenation()
         {
+            
             List<string> v = new List<string>{"123567", "098234",
-                                          "14765", "19804"};
+            "14765", "19804"};
             Console.WriteLine(countPandigitalPairs(ref v));
         }
 
