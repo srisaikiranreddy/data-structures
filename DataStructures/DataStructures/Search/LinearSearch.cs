@@ -5,6 +5,13 @@ namespace DataStructures.Search
     {
         public LinearSearch()
         {
+            Console.WriteLine("\n Print LinearSearchNumbers searchArray { 1,2},findNumbers { 5, 7, 1, 2, 8 }");
+            
+            Console.WriteLine("\n Print LinearSearchNumbers");
+            foreach (var n in LinearSearchNumbers(new[] { 5, 7, 1, 2, 8 }, new[] { 1, 2 }))
+            {
+                Console.Write(n + " ");
+            }
         }
 
         static int[] LinearSearchNumbers(int[] searchArray, int[] findNumbers)
