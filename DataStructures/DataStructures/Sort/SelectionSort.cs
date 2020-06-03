@@ -5,6 +5,16 @@ namespace DataStructures.Sort
     {
         public SelectionSort()
         {
+            Console.WriteLine("\n Print SelectionSort UnSort");
+            foreach (var n in (new[] { 5, 7, 1, 2, 8 }))
+            {
+                Console.Write(n + " ");
+            }
+            Console.WriteLine("\n Print SelectionSort Sort");
+            foreach (var n in SortNumbers(new[] { 5, 7, 1, 2, 8 }))
+            {
+                Console.Write(n + " ");
+            }
         }
 
         static int[] SortNumbers(int[] unSortedArray)

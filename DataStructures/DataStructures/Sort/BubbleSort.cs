@@ -5,9 +5,19 @@ namespace DataStructures.Sort
     {
         public BubbleSort()
         {
+            Console.WriteLine("\n Print Bubble UnSort");
+            foreach (var n in (new[] { 5, 7, 1, 2,8 }))
+            {
+                Console.Write(n + " ");
+            }
+            Console.WriteLine("\n Print Bubble Sort");
+            foreach (var n in SortNumbers(new []{ 5, 7, 1, 2, 8 }))
+            {
+                Console.Write(n + " ");
+            }
         }
 
-        static int[] SortNumbers(int[] unSortedArray)
+            static int[] SortNumbers(int[] unSortedArray)
         {
             
                 for (int write = 0; write < unSortedArray.Length; write++)

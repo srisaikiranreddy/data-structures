@@ -5,6 +5,16 @@ namespace DataStructures.Sort
     {
         public InsertionSort()
         {
+            Console.WriteLine("\n Print InsertionSort UnSort");
+            foreach (var n in (new[] { 5, 7, 1, 2, 8 }))
+            {
+                Console.Write(n + " ");
+            }
+            Console.WriteLine("\n Print InsertionSort Sort");
+            foreach (var n in SortNumbers(new[] { 5, 7, 1, 2, 8 }))
+            {
+                Console.Write(n + " ");
+            }
         }
 
         //Step 1 − If it is the first element, it is already sorted. return 1;
