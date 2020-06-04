@@ -1,8 +1,10 @@
 ﻿<Properties StartupConfiguration="{DEB9BDED-799C-4419-A8D2-A23E74E40DB2}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DataStructures/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DataStructures/Queues/MaxSubArraysSize.cs">
     <Files>
-      <File FileName="DataStructures/Trees/BinaryTree.cs" Line="82" Column="6" />
-      <File FileName="DataStructures/Program.cs" Line="1" Column="1" />
+      <File FileName="DataStructures/Trees/BinaryTree.cs" Line="53" Column="37" />
+      <File FileName="DataStructures/Program.cs" Line="6" Column="28" />
+      <File FileName="DataStructures/Queues/MaxSubArraysSize.cs" Line="8" Column="65" />
+      <File FileName="DataStructures/Math/EvenNumber.cs" Line="10" Column="65" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,12 +12,14 @@
           <Node name="DataStructures" expanded="True">
             <Node name="DataStructures" expanded="True">
               <Node name="Math" expanded="True" />
+              <Node name="Queues" expanded="True">
+                <Node name="MaxSubArraysSize.cs" selected="True" />
+              </Node>
               <Node name="Search" expanded="True" />
               <Node name="Sort" expanded="True" />
               <Node name="Stacks" expanded="True" />
               <Node name="Strings" expanded="True" />
               <Node name="Trees" expanded="True" />
-              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>

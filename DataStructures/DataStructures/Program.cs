@@ -4,6 +4,7 @@ using DataStructures.Sort;
 using DataStructures.Strings;
 using DataStructures.Search;
 using DataStructures.Trees;
+using DataStructures.Queues;
 
 namespace DataStructures
 {
@@ -13,29 +14,33 @@ namespace DataStructures
         { 
             Console.WriteLine("Start running Data Structures");
 
-            ///-----------Math--------------//
-            Console.Write("\n Running Math problems");
-            EvenNumber evenNumber = new EvenNumber();
-            PrimeNumber primeNumber = new PrimeNumber();
-            OddNumber oddNumber = new OddNumber();
+            /////-----------Math--------------//
+            //Console.Write("\n Running Math problems");
+            //EvenNumber evenNumber = new EvenNumber();
+            //PrimeNumber primeNumber = new PrimeNumber();
+            //OddNumber oddNumber = new OddNumber();
 
-            ///----------Search-------------//
-            Console.Write("Running Search problems");
-            LinearSearch linearSearch = new LinearSearch();
+            ///----------Queues-------------//
+            Console.Write("Running Queues problems");
+            MaxSubArraysSize maxSubArraysSize = new MaxSubArraysSize();
 
-            ///----------Sort--------------//
-            Console.Write("\n Running Sort problems");
-            BubbleSort bubbleSort = new BubbleSort();
-            InsertionSort insertSort = new InsertionSort();
-            SelectionSort selectSort = new SelectionSort();
+            /////----------Search-------------//
+            //Console.Write("Running Search problems");
+            //LinearSearch linearSearch = new LinearSearch();
 
-            ///-----------Strings-----------//
-            Console.Write("\n Running Strings problems");
-            PandigitalConcatenation pandigitalConcatenation = new PandigitalConcatenation();
+            /////----------Sort--------------//
+            //Console.Write("\n Running Sort problems");
+            //BubbleSort bubbleSort = new BubbleSort();
+            //InsertionSort insertSort = new InsertionSort();
+            //SelectionSort selectSort = new SelectionSort();
 
-            ///-----------Trees------------//
-            Console.Write("\n Running Trees problems");
-            BinaryTree binaryTree = new BinaryTree();
+            /////-----------Strings-----------//
+            //Console.Write("\n Running Strings problems");
+            //PandigitalConcatenation pandigitalConcatenation = new PandigitalConcatenation();
+
+            /////-----------Trees------------//
+            //Console.Write("\n Running Trees problems");
+            //BinaryTree binaryTree = new BinaryTree();
 
 
             
