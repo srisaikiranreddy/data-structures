@@ -3,6 +3,7 @@ using DataStructures.Math;
 using DataStructures.Sort;
 using DataStructures.Strings;
 using DataStructures.Search;
+using DataStructures.Trees;
 
 namespace DataStructures
 {
@@ -31,6 +32,11 @@ namespace DataStructures
             ///-----------Strings-----------//
             Console.Write("\n Running Strings problems");
             PandigitalConcatenation pandigitalConcatenation = new PandigitalConcatenation();
+
+            ///-----------Trees------------//
+            Console.Write("\n Running Trees problems");
+            BinaryTree binaryTree = new BinaryTree();
+
 
             
             
