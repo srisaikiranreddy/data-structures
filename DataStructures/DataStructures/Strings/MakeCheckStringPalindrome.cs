@@ -7,6 +7,9 @@ namespace DataStructures.Strings
     {
         public MakeCheckStringPalindrome()
         {
+            Console.WriteLine("\n Print MakeCheckStringPalindrome Input geeksgk");
+            String s = "geeksgk";
+            printPalindromePos(s);
         }
 
         static int MAX = 256;

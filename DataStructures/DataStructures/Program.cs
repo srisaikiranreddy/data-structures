@@ -14,15 +14,16 @@ namespace DataStructures
         { 
             Console.WriteLine("Start running Data Structures");
 
-            /////-----------Math--------------//
-            //Console.Write("\n Running Math problems");
+            ///-----------Math--------------//
+            Console.Write("\n Running Math problems");
             //EvenNumber evenNumber = new EvenNumber();
             //PrimeNumber primeNumber = new PrimeNumber();
             //OddNumber oddNumber = new OddNumber();
+            PalidroneNumber palidroneNumber = new PalidroneNumber();
 
-            ///----------Queues-------------//
-            Console.Write("Running Queues problems");
-            MaxSubArraysSize maxSubArraysSize = new MaxSubArraysSize();
+            /////----------Queues-------------//
+            //Console.Write("Running Queues problems");
+            //MaxSubArraysSize maxSubArraysSize = new MaxSubArraysSize();
 
             /////----------Search-------------//
             //Console.Write("Running Search problems");
@@ -37,14 +38,17 @@ namespace DataStructures
             /////-----------Strings-----------//
             //Console.Write("\n Running Strings problems");
             //PandigitalConcatenation pandigitalConcatenation = new PandigitalConcatenation();
+            //StringCopy stringCopy = new StringCopy();
+            //MakeCheckStringPalindrome makeCheckStringPalindrome = new MakeCheckStringPalindrome();
+            //PalindroneString palindroneString = new PalindroneString();
 
             /////-----------Trees------------//
             //Console.Write("\n Running Trees problems");
             //BinaryTree binaryTree = new BinaryTree();
 
 
-            
-            
+
+
         }
     }
 }
