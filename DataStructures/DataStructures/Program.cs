@@ -20,6 +20,7 @@ namespace DataStructures
             //PrimeNumber primeNumber = new PrimeNumber();
             //OddNumber oddNumber = new OddNumber();
             PalidroneNumber palidroneNumber = new PalidroneNumber();
+            RoundNumberMultiple roundNumberMultiple = new RoundNumberMultiple();
 
             /////----------Queues-------------//
             //Console.Write("Running Queues problems");
