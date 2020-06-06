@@ -41,13 +41,14 @@ namespace DataStructures
             //StringCopy stringCopy = new StringCopy();
             //MakeCheckStringPalindrome makeCheckStringPalindrome = new MakeCheckStringPalindrome();
             //PalindroneString palindroneString = new PalindroneString();
+            //CheckStringWheatherNumber checkStringWheatherNumber = new CheckStringWheatherNumber();
+            QuickCheckSameCharInString quickCheckSameCharInString = new QuickCheckSameCharInString();
+            RemovePunctuations removePunctuations = new RemovePunctuations();
+            InitialsName initialsName = new InitialsName();
 
             /////-----------Trees------------//
             //Console.Write("\n Running Trees problems");
             //BinaryTree binaryTree = new BinaryTree();
-
-
-
 
         }
     }
