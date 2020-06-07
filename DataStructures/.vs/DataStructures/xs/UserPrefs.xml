@@ -1,22 +1,26 @@
 ﻿<Properties StartupConfiguration="{DEB9BDED-799C-4419-A8D2-A23E74E40DB2}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DataStructures/Math/RoundNumberMultiple.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DataStructures/Strings/AlternateLowerUpperStringSort.cs">
     <Files>
       <File FileName="DataStructures/Strings/ReArrangeCharactersStringNoAdjacent.cs" Line="52" Column="26" />
       <File FileName="DataStructures/Strings/QuickCheckSameCharInString.cs" Line="18" Column="68" />
-      <File FileName="DataStructures/Program.cs" Line="47" Column="60" />
-      <File FileName="DataStructures/Strings/RemovePunctuations.cs" Line="23" Column="66" />
+      <File FileName="DataStructures/Program.cs" Line="23" Column="81" />
+      <File FileName="DataStructures/Strings/RemovePunctuations.cs" Line="18" Column="60" />
       <File FileName="DataStructures/Strings/InitialsName.cs" Line="31" Column="10" />
-      <File FileName="DataStructures/Math/RoundNumberMultiple.cs" Line="13" Column="1" />
+      <File FileName="DataStructures/Math/RoundNumberMultiple.cs" Line="16" Column="6" />
+      <File FileName="DataStructures/Strings/PalindroneString.cs" Line="1" Column="1" />
+      <File FileName="DataStructures/Strings/CheckStringWheatherNumber.cs" Line="1" Column="1" />
+      <File FileName="DataStructures/Strings/MakeCheckStringPalindrome.cs" Line="1" Column="1" />
+      <File FileName="DataStructures/Strings/AlternateLowerUpperStringSort.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="DataStructures" expanded="True">
             <Node name="DataStructures" expanded="True">
-              <Node name="Math" expanded="True">
-                <Node name="RoundNumberMultiple.cs" selected="True" />
+              <Node name="Math" expanded="True" />
+              <Node name="Strings" expanded="True">
+                <Node name="AlternateLowerUpperStringSort.cs" selected="True" />
               </Node>
-              <Node name="Strings" expanded="True" />
               <Node name="Trees" expanded="True" />
             </Node>
           </Node>
