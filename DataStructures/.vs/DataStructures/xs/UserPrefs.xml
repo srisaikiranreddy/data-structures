@@ -1,16 +1,19 @@
 ﻿<Properties StartupConfiguration="{DEB9BDED-799C-4419-A8D2-A23E74E40DB2}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DataStructures/Strings/AlternateLowerUpperStringSort.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DataStructures/Sort/BubbleSort.cs">
     <Files>
       <File FileName="DataStructures/Strings/ReArrangeCharactersStringNoAdjacent.cs" Line="52" Column="26" />
-      <File FileName="DataStructures/Strings/QuickCheckSameCharInString.cs" Line="18" Column="68" />
-      <File FileName="DataStructures/Program.cs" Line="23" Column="81" />
-      <File FileName="DataStructures/Strings/RemovePunctuations.cs" Line="18" Column="60" />
-      <File FileName="DataStructures/Strings/InitialsName.cs" Line="31" Column="10" />
-      <File FileName="DataStructures/Math/RoundNumberMultiple.cs" Line="16" Column="6" />
-      <File FileName="DataStructures/Strings/PalindroneString.cs" Line="1" Column="1" />
-      <File FileName="DataStructures/Strings/CheckStringWheatherNumber.cs" Line="1" Column="1" />
-      <File FileName="DataStructures/Strings/MakeCheckStringPalindrome.cs" Line="1" Column="1" />
-      <File FileName="DataStructures/Strings/AlternateLowerUpperStringSort.cs" Line="1" Column="1" />
+      <File FileName="DataStructures/Strings/QuickCheckSameCharInString.cs" />
+      <File FileName="DataStructures/Program.cs" />
+      <File FileName="DataStructures/Strings/RemovePunctuations.cs" />
+      <File FileName="DataStructures/Strings/InitialsName.cs" />
+      <File FileName="DataStructures/Math/RoundNumberMultiple.cs" />
+      <File FileName="DataStructures/Strings/PalindroneString.cs" />
+      <File FileName="DataStructures/Strings/CheckStringWheatherNumber.cs" />
+      <File FileName="DataStructures/Strings/MakeCheckStringPalindrome.cs" />
+      <File FileName="DataStructures/Strings/AlternateLowerUpperStringSort.cs" />
+      <File FileName="DataStructures/Sort/SelectionSort.cs" />
+      <File FileName="DataStructures/Sort/BubbleSort.cs" Line="1" Column="1" />
+      <File FileName="DataStructures/Sort/InsertionSort.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,9 +21,11 @@
           <Node name="DataStructures" expanded="True">
             <Node name="DataStructures" expanded="True">
               <Node name="Math" expanded="True" />
-              <Node name="Strings" expanded="True">
-                <Node name="AlternateLowerUpperStringSort.cs" selected="True" />
+              <Node name="Search" expanded="True" />
+              <Node name="Sort" expanded="True">
+                <Node name="BubbleSort.cs" selected="True" />
               </Node>
+              <Node name="Strings" expanded="True" />
               <Node name="Trees" expanded="True" />
             </Node>
           </Node>

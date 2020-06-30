@@ -31,8 +31,8 @@ namespace DataStructures
             //LinearSearch linearSearch = new LinearSearch();
 
             /////----------Sort--------------//
-            //Console.Write("\n Running Sort problems");
-            //BubbleSort bubbleSort = new BubbleSort();
+            Console.Write("\n Running Sort problems");
+            BubbleSort bubbleSort = new BubbleSort();
             //InsertionSort insertSort = new InsertionSort();
             //SelectionSort selectSort = new SelectionSort();
 

@@ -15,26 +15,47 @@ namespace DataStructures.Sort
             {
                 Console.Write(n + " ");
             }
+            string input = "qwertyuiopasdfghjklzxcvbnm0987654321~`!@#$%^&*()_-=+{}[]|;'<>?,./";
+            Console.WriteLine("\n Print Bubble UnSort String "+ input);
+            
+            Console.WriteLine("\n Print Bubble Sort String  "+ SortString(input));
         }
 
-            static int[] SortNumbers(int[] unSortedArray)
+        static int[] SortNumbers(int[] unSortedArray)
         {
-            
-                for (int write = 0; write < unSortedArray.Length; write++)
+            for (int write = 0; write < unSortedArray.Length; write++)
+            {
+                for (int sort = write + 1; sort < unSortedArray.Length; sort++)
                 {
-                    for (int sort = write + 1; sort < unSortedArray.Length; sort++)
+                    if (unSortedArray[write] > unSortedArray[sort])
                     {
-                        if (unSortedArray[write] > unSortedArray[sort])
-                        {
-                            int temp = unSortedArray[write];
-                            unSortedArray[write] = unSortedArray[sort];
-                            unSortedArray[sort] = temp;
-                        }
+                        int temp = unSortedArray[write];
+                        unSortedArray[write] = unSortedArray[sort];
+                        unSortedArray[sort] = temp;
                     }
-                    
                 }
-               
-                return unSortedArray;
+
+            }
+            return unSortedArray;
+        }
+
+        static string SortString(string unSortedString)
+        {
+            char[] unSortedStringArray = unSortedString.ToCharArray();
+            for (int write = 0; write < unSortedStringArray.Length; write++)
+            {
+                for (int sort = write + 1; sort < unSortedStringArray.Length; sort++)
+                {
+                    if (unSortedStringArray[write] > unSortedStringArray[sort])
+                    {
+                        char temp = unSortedStringArray[write];
+                        unSortedStringArray[write] = unSortedStringArray[sort];
+                        unSortedStringArray[sort] = temp;
+                    }
+                }
+
+            }
+            return String.Join("",unSortedStringArray);
         }
     }
 }

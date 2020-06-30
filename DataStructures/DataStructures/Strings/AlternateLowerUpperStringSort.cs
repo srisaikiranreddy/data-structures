@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Linq;
 
 namespace DataStructures.Strings
@@ -24,22 +25,37 @@ namespace DataStructures.Strings
 
         static int maxLengthString = 256;
 
-        static void TakeUpperCharLowerChars(string input)
-        {
-            if (string.IsNullOrEmpty(input) || input.Length>maxLengthString)
-                return "Empty or maxlenght exceeded";
+        //static string TakeUpperCharLowerChars(string input)
+        //{
+        //    if (string.IsNullOrEmpty(input) || input.Length>maxLengthString)
+        //        return "Empty or maxlenght exceeded";
 
-            char[] inputChars = input.ToCharArray();
-            char[] upperChars = new char[maxLengthString];
-            char[] lowerChars = new char[maxLengthString];
-            for (int i=0;i<inputChars.Count();i++)
-            {
-                if (Char.IsUpper(inputChars[i]))
-                    upperChars[i] = inputChars[i];
-                else
-                    lowerChars[i] = lowerChars[i];
+        //    char[] inputChars = input.ToCharArray();
+        //    char[] upperChars = new char[maxLengthString];
+        //    char[] lowerChars = new char[maxLengthString];
+            
+        //    for (int i=0;i<inputChars.Count();i++)
+        //    {
+        //        if (Char.IsUpper(inputChars[i]))
+        //            upperChars[i] = inputChars[i];
+        //        else
+        //            lowerChars[i] = lowerChars[i];
+        //    }
 
-            }
-        }
+        //    Array.Sort(upperChars);
+        //    Array.Sort(lowerChars);
+
+        //    char[] sortedChars = new char[lowerChars.Count() + upperChars.Count()];
+        //    for (int i = 0; i < lowerChars.Count() + upperChars.Count(); i++)
+        //    {
+                
+        //            sortedChars[i] = upperChars[i];
+                    
+                
+
+
+                
+        //    }
+        //}
     }
 }
