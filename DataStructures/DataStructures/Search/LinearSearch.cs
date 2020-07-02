@@ -35,5 +35,16 @@ namespace DataStructures.Search
         {
             return null;
         }
+
+        static int LinearSearchCountWord(string searchWord, string sentence)
+        {
+            return 0;
+        }
+
+        static int LinearSearchCountChar(string searchWord, char alphabet)
+        {
+            return 0;
+        }
+
     }
 }

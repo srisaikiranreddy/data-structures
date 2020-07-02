@@ -1,34 +1,26 @@
 ﻿<Properties StartupConfiguration="{DEB9BDED-799C-4419-A8D2-A23E74E40DB2}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DataStructures/Sort/BubbleSort.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DataStructures/Program.cs">
     <Files>
-      <File FileName="DataStructures/Strings/ReArrangeCharactersStringNoAdjacent.cs" Line="52" Column="26" />
-      <File FileName="DataStructures/Strings/QuickCheckSameCharInString.cs" />
-      <File FileName="DataStructures/Program.cs" />
-      <File FileName="DataStructures/Strings/RemovePunctuations.cs" />
-      <File FileName="DataStructures/Strings/InitialsName.cs" />
-      <File FileName="DataStructures/Math/RoundNumberMultiple.cs" />
-      <File FileName="DataStructures/Strings/PalindroneString.cs" />
-      <File FileName="DataStructures/Strings/CheckStringWheatherNumber.cs" />
-      <File FileName="DataStructures/Strings/MakeCheckStringPalindrome.cs" />
-      <File FileName="DataStructures/Strings/AlternateLowerUpperStringSort.cs" />
-      <File FileName="DataStructures/Sort/SelectionSort.cs" />
-      <File FileName="DataStructures/Sort/BubbleSort.cs" Line="1" Column="1" />
-      <File FileName="DataStructures/Sort/InsertionSort.cs" />
+      <File FileName="DataStructures/Search/LinearSearch.cs" Line="32" Column="10" />
+      <File FileName="DataStructures/Search/BinarySearch.cs" Line="25" Column="63" />
+      <File FileName="DataStructures/Program.cs" Line="35" Column="56" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="DataStructures" expanded="True">
             <Node name="DataStructures" expanded="True">
-              <Node name="Math" expanded="True" />
               <Node name="Search" expanded="True" />
-              <Node name="Sort" expanded="True">
-                <Node name="BubbleSort.cs" selected="True" />
-              </Node>
-              <Node name="Strings" expanded="True" />
+              <Node name="Sort" expanded="True" />
               <Node name="Trees" expanded="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="DataStructures" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>

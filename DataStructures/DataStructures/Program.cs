@@ -15,24 +15,25 @@ namespace DataStructures
             Console.WriteLine("Start running Data Structures");
 
             ///-----------Math--------------//
-            Console.Write("\n Running Math problems");
+            //Console.Write("\n Running Math problems");
             //EvenNumber evenNumber = new EvenNumber();
             //PrimeNumber primeNumber = new PrimeNumber();
             //OddNumber oddNumber = new OddNumber();
-            PalidroneNumber palidroneNumber = new PalidroneNumber();
-            RoundNumberMultiple roundNumberMultiple = new RoundNumberMultiple();
+            //PalidroneNumber palidroneNumber = new PalidroneNumber();
+            //RoundNumberMultiple roundNumberMultiple = new RoundNumberMultiple();
 
             /////----------Queues-------------//
             //Console.Write("Running Queues problems");
             //MaxSubArraysSize maxSubArraysSize = new MaxSubArraysSize();
 
             /////----------Search-------------//
-            //Console.Write("Running Search problems");
+            Console.Write("Running Search problems");
+            BinarySearch binarySearch = new BinarySearch();
             //LinearSearch linearSearch = new LinearSearch();
 
             /////----------Sort--------------//
-            Console.Write("\n Running Sort problems");
-            BubbleSort bubbleSort = new BubbleSort();
+            //Console.Write("\n Running Sort problems");
+            //BubbleSort bubbleSort = new BubbleSort();
             //InsertionSort insertSort = new InsertionSort();
             //SelectionSort selectSort = new SelectionSort();
 
@@ -43,9 +44,9 @@ namespace DataStructures
             //MakeCheckStringPalindrome makeCheckStringPalindrome = new MakeCheckStringPalindrome();
             //PalindroneString palindroneString = new PalindroneString();
             //CheckStringWheatherNumber checkStringWheatherNumber = new CheckStringWheatherNumber();
-            QuickCheckSameCharInString quickCheckSameCharInString = new QuickCheckSameCharInString();
-            RemovePunctuations removePunctuations = new RemovePunctuations();
-            InitialsName initialsName = new InitialsName();
+            //QuickCheckSameCharInString quickCheckSameCharInString = new QuickCheckSameCharInString();
+            //RemovePunctuations removePunctuations = new RemovePunctuations();
+            //InitialsName initialsName = new InitialsName();
 
             /////-----------Trees------------//
             //Console.Write("\n Running Trees problems");

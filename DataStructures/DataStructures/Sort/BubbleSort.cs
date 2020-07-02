@@ -1,8 +1,12 @@
 ﻿using System;
+using System.Linq;
+
 namespace DataStructures.Sort
 {
     public class BubbleSort
     {
+        private int[] _unSortedArray;
+        private string _unSortedString;
         public BubbleSort()
         {
             Console.WriteLine("\n Print Bubble UnSort");
@@ -21,7 +25,14 @@ namespace DataStructures.Sort
             Console.WriteLine("\n Print Bubble Sort String  "+ SortString(input));
         }
 
-        static int[] SortNumbers(int[] unSortedArray)
+        public BubbleSort(int[] unSortedArray, string unSortedString)
+        {
+            if(unSortedArray.Count() > 0) _unSortedArray = unSortedArray;
+            if (!string.IsNullOrEmpty(unSortedString))  _unSortedString = unSortedString;
+
+        }
+
+            static int[] SortNumbers(int[] unSortedArray)
         {
             for (int write = 0; write < unSortedArray.Length; write++)
             {
@@ -34,7 +45,6 @@ namespace DataStructures.Sort
                         unSortedArray[sort] = temp;
                     }
                 }
-
             }
             return unSortedArray;
         }
@@ -53,7 +63,6 @@ namespace DataStructures.Sort
                         unSortedStringArray[sort] = temp;
                     }
                 }
-
             }
             return String.Join("",unSortedStringArray);
         }
