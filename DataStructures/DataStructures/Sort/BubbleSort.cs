@@ -32,7 +32,7 @@ namespace DataStructures.Sort
 
         }
 
-            static int[] SortNumbers(int[] unSortedArray)
+        static int[] SortNumbers(int[] unSortedArray)
         {
             for (int write = 0; write < unSortedArray.Length; write++)
             {

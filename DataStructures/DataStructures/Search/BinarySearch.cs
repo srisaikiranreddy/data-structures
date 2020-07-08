@@ -35,13 +35,13 @@ namespace DataStructures.Search
             return numberFound;
         }
 
-        static string[] BinarySearchString(string[] searchArray, string[] findNumbers)
+        static string[] BinarySearchString(string[] searchArray, string[] findStrings)
         {
-            string[] numberFound = new string[findNumbers.Length];
-            for (int number = 0; number < findNumbers.Length; number++)
+            string[] numberFound = new string[findStrings.Length];
+            for (int number = 0; number < findStrings.Length; number++)
             {
-                if(BinarySearchString(searchArray, findNumbers[number], 0, searchArray.Length))
-                    numberFound[number] = findNumbers[number];
+                if(BinarySearchString(searchArray, findStrings[number], 0, searchArray.Length))
+                    numberFound[number] = findStrings[number];
             }
             return numberFound;
         }
