@@ -15,6 +15,7 @@
     <Folder Include="LinkedLists\" />
     <Folder Include="Graphs\" />
     <Folder Include="Trees\" />
+    <Folder Include="Arrays\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Sort\bubble.cs" />

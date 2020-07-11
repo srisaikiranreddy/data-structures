@@ -14,7 +14,7 @@ namespace DataStructures.Math
             }
         }
 
-        static bool CheckPrimeNumber(int N)
+        public static bool CheckPrimeNumber(int N)
         {
             int count = 0;
             for (int i = 1; i <= N; i++)

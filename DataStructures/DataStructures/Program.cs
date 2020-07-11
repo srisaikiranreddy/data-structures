@@ -5,6 +5,8 @@ using DataStructures.Strings;
 using DataStructures.Search;
 using DataStructures.Trees;
 using DataStructures.Queues;
+using DataStructures.LinkedLists;
+using DataStructures.Arrays;
 
 namespace DataStructures
 {
@@ -13,6 +15,15 @@ namespace DataStructures
         static void Main(string[] args)
         { 
             Console.WriteLine("Start running Data Structures");
+
+            /////----------Arrays-------------//
+            Console.Write("Running Arrays problems");
+            SecondOccurenceValue secondOccurenceValue = new SecondOccurenceValue();
+            FirstRepeatWordSentence firstRepeatWordSentence = new FirstRepeatWordSentence();
+
+            /////----------LinkedLists-------------//
+            Console.Write("Running LinkedLists problems");
+            //SimpleLinkedList simpleLinkedList = new SimpleLinkedList();
 
             ///-----------Math--------------//
             //Console.Write("\n Running Math problems");
@@ -27,13 +38,13 @@ namespace DataStructures
             //MaxSubArraysSize maxSubArraysSize = new MaxSubArraysSize();
 
             /////----------Search-------------//
-            Console.Write("Running Search problems");
-            BinarySearch binarySearch = new BinarySearch();
+            //Console.Write("Running Search problems");
+            //BinarySearch binarySearch = new BinarySearch();
             //LinearSearch linearSearch = new LinearSearch();
 
             /////----------Sort--------------//
-            //Console.Write("\n Running Sort problems");
-            //BubbleSort bubbleSort = new BubbleSort();
+            Console.Write("\n Running Sort problems");
+            BubbleSort bubbleSort = new BubbleSort();
             //InsertionSort insertSort = new InsertionSort();
             //SelectionSort selectSort = new SelectionSort();
 

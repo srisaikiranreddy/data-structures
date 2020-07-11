@@ -23,6 +23,14 @@ namespace DataStructures.Sort
             Console.WriteLine("\n Print Bubble UnSort String "+ input);
             
             Console.WriteLine("\n Print Bubble Sort String  "+ SortString(input));
+
+            //Input: str = “geeksforgeeks”
+            //Output: forggkksseeee
+            input = "geeksforgeeks";
+            Console.WriteLine("\n Print Bubble UnSort String " + input);
+
+            Console.WriteLine("\n Print Bubble Sort String  " + SortString(input));
+
         }
 
         public BubbleSort(int[] unSortedArray, string unSortedString)

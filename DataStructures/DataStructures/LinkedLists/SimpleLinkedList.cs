@@ -15,6 +15,8 @@ namespace DataStructures.LinkedLists
 
             first.head._next = second;
             second._next = third;
+
+            first.TraverseLinkedList();
         }
 
         void TraverseLinkedList()
@@ -22,8 +24,8 @@ namespace DataStructures.LinkedLists
             SimpleLinkedListNode node = head;
             while (node != null)
             {
-                Console.Write(node.data + " ");
-                node = node.next;
+                Console.Write(node._data + " ");
+                node = node._next;
             }
         }
     }
