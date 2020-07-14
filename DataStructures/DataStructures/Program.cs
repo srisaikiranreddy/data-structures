@@ -7,6 +7,8 @@ using DataStructures.Trees;
 using DataStructures.Queues;
 using DataStructures.LinkedLists;
 using DataStructures.Arrays;
+using DataStructures.Arrays.Rotation;
+using DataStructures.Arrays.Rearrangement;
 
 namespace DataStructures
 {
@@ -18,11 +20,14 @@ namespace DataStructures
 
             /////----------Arrays-------------//
             Console.Write("Running Arrays problems");
-            SecondOccurenceValue secondOccurenceValue = new SecondOccurenceValue();
-            FirstRepeatWordSentence firstRepeatWordSentence = new FirstRepeatWordSentence();
+            //ArrrayRotation arrrayRotation = new ArrrayRotation();
+            //ArrayFindSumPair arrayFindSumPair = new ArrayFindSumPair();
+            Array_i__i array_I__ = new Array_i__i();
+            //SecondOccurenceValue secondOccurenceValue = new SecondOccurenceValue();
+            //FirstRepeatWordSentence firstRepeatWordSentence = new FirstRepeatWordSentence();
 
             /////----------LinkedLists-------------//
-            Console.Write("Running LinkedLists problems");
+            //Console.Write("Running LinkedLists problems");
             //SimpleLinkedList simpleLinkedList = new SimpleLinkedList();
 
             ///-----------Math--------------//
@@ -43,8 +48,8 @@ namespace DataStructures
             //LinearSearch linearSearch = new LinearSearch();
 
             /////----------Sort--------------//
-            Console.Write("\n Running Sort problems");
-            BubbleSort bubbleSort = new BubbleSort();
+            //Console.Write("\n Running Sort problems");
+            //BubbleSort bubbleSort = new BubbleSort();
             //InsertionSort insertSort = new InsertionSort();
             //SelectionSort selectSort = new SelectionSort();
 

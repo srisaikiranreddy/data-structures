@@ -1,12 +1,13 @@
 ﻿<Properties StartupConfiguration="{DEB9BDED-799C-4419-A8D2-A23E74E40DB2}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="DataStructures/Math/PrimeNumber.cs">
     <Files>
-      <File FileName="DataStructures/LinkedLists/SimpleLinkedListNode.cs" Line="13" Column="10" />
-      <File FileName="DataStructures/LinkedLists/SimpleLinkedList.cs" Line="1" Column="1" />
-      <File FileName="DataStructures/Arrays/SecondOccurenceValue.cs" Line="44" Column="18" />
-      <File FileName="DataStructures/Sort/BubbleSort.cs" Line="25" Column="83" />
-      <File FileName="DataStructures/Program.cs" Line="22" Column="93" />
-      <File FileName="DataStructures/Arrays/FirstRepeatWordSentence.cs" Line="61" Column="25" />
+      <File FileName="DataStructures/Arrays/Rotation/ArrrayRotation.cs" Line="30" Column="1" />
+      <File FileName="DataStructures/Arrays/Rotation/ArrayFindSumPair.cs" Line="74" Column="10" />
+      <File FileName="DataStructures/Sort/SelectionSort.cs" Line="37" Column="34" />
+      <File FileName="DataStructures/Program.cs" Line="22" Column="54" />
+      <File FileName="DataStructures/Arrays/Rearrangement/Array[i]=i.cs" Line="27" Column="44" />
+      <File FileName="DataStructures/Sort/BubbleSort.cs" Line="42" Column="1" />
+      <File FileName="DataStructures/Math/PalidroneNumber.cs" Line="1" Column="1" />
       <File FileName="DataStructures/Math/PrimeNumber.cs" Line="1" Column="1" />
     </Files>
     <Pads>
@@ -14,7 +15,10 @@
         <State name="__root__">
           <Node name="DataStructures" expanded="True">
             <Node name="DataStructures" expanded="True">
-              <Node name="Arrays" expanded="True" />
+              <Node name="Arrays" expanded="True">
+                <Node name="Rearrangement" expanded="True" />
+                <Node name="Rotation" expanded="True" />
+              </Node>
               <Node name="LinkedLists" expanded="True" />
               <Node name="Math" expanded="True">
                 <Node name="PrimeNumber.cs" selected="True" />
@@ -27,6 +31,12 @@
               <Node name="Trees" expanded="True" />
             </Node>
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>input[input.Length-size + i]</Value>
+          <Value>input[(input.Length-size) + i]</Value>
         </State>
       </Pad>
     </Pads>

@@ -16,6 +16,8 @@
     <Folder Include="Graphs\" />
     <Folder Include="Trees\" />
     <Folder Include="Arrays\" />
+    <Folder Include="Arrays\Rotation\" />
+    <Folder Include="Arrays\Rearrangement\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Sort\bubble.cs" />
