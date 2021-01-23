@@ -22,7 +22,7 @@ namespace DataStructures
             Console.Write("Running Arrays problems");
             //ArrrayRotation arrrayRotation = new ArrrayRotation();
             //ArrayFindSumPair arrayFindSumPair = new ArrayFindSumPair();
-            Array_i__i array_I__ = new Array_i__i();
+            //Array_i__i array_I__ = new Array_i__i();
             //SecondOccurenceValue secondOccurenceValue = new SecondOccurenceValue();
             //FirstRepeatWordSentence firstRepeatWordSentence = new FirstRepeatWordSentence();
 
@@ -63,6 +63,8 @@ namespace DataStructures
             //QuickCheckSameCharInString quickCheckSameCharInString = new QuickCheckSameCharInString();
             //RemovePunctuations removePunctuations = new RemovePunctuations();
             //InitialsName initialsName = new InitialsName();
+            //WayFairInInterviewQuestion wayFairInInterviewQuestion = new WayFairInInterviewQuestion();
+            WayFairIn2 wayFairIn2 = new WayFairIn2();
 
             /////-----------Trees------------//
             //Console.Write("\n Running Trees problems");
