@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/saikiranpalle/Documents/DataStructuces/DataStructures/DataStructurcesTests/DataStructurcesTests.csproj": {}
+    "/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructurcesTests/DataStructurcesTests.csproj": {}
   },
   "projects": {
-    "/Users/saikiranpalle/Documents/DataStructuces/DataStructures/DataStructurcesTests/DataStructurcesTests.csproj": {
+    "/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructurcesTests/DataStructurcesTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/saikiranpalle/Documents/DataStructuces/DataStructures/DataStructurcesTests/DataStructurcesTests.csproj",
+        "projectUniqueName": "/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructurcesTests/DataStructurcesTests.csproj",
         "projectName": "DataStructurcesTests",
-        "projectPath": "/Users/saikiranpalle/Documents/DataStructuces/DataStructures/DataStructurcesTests/DataStructurcesTests.csproj",
+        "projectPath": "/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructurcesTests/DataStructurcesTests.csproj",
         "packagesPath": "/Users/saikiranpalle/.nuget/packages/",
-        "outputPath": "/Users/saikiranpalle/Documents/DataStructuces/DataStructures/DataStructurcesTests/obj/",
+        "outputPath": "/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructurcesTests/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -27,9 +27,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "/Users/saikiranpalle/Documents/DataStructuces/DataStructures/DataStructures/DataStructures.csproj": {
-                "projectPath": "/Users/saikiranpalle/Documents/DataStructuces/DataStructures/DataStructures/DataStructures.csproj"
+              "/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/DataStructures.csproj": {
+                "projectPath": "/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/DataStructures.csproj"
               }
             }
           }
@@ -42,6 +43,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -75,18 +77,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/saikiranpalle/Documents/DataStructuces/DataStructures/DataStructures/DataStructures.csproj": {
+    "/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/DataStructures.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/saikiranpalle/Documents/DataStructuces/DataStructures/DataStructures/DataStructures.csproj",
+        "projectUniqueName": "/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/DataStructures.csproj",
         "projectName": "DataStructures",
-        "projectPath": "/Users/saikiranpalle/Documents/DataStructuces/DataStructures/DataStructures/DataStructures.csproj",
+        "projectPath": "/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/DataStructures.csproj",
         "packagesPath": "/Users/saikiranpalle/.nuget/packages/",
-        "outputPath": "/Users/saikiranpalle/Documents/DataStructuces/DataStructures/DataStructures/obj/",
+        "outputPath": "/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -102,6 +104,7 @@
         },
         "frameworks": {
           "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
             "projectReferences": {}
           }
         },
@@ -113,6 +116,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "dependencies": {
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
@@ -131,7 +135,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -18,6 +18,10 @@
     <Folder Include="Arrays\" />
     <Folder Include="Arrays\Rotation\" />
     <Folder Include="Arrays\Rearrangement\" />
+    <Folder Include="AmazonQuestions\" />
+    <Folder Include="AmazonQuestions\Arrays\" />
+    <Folder Include="AmazonQuestions\Recursion\" />
+    <Folder Include="AmazonQuestions\LinkedLists\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Sort\bubble.cs" />

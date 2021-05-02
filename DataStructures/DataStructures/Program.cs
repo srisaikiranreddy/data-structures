@@ -9,6 +9,7 @@ using DataStructures.LinkedLists;
 using DataStructures.Arrays;
 using DataStructures.Arrays.Rotation;
 using DataStructures.Arrays.Rearrangement;
+using DataStructures.AmazonQuestions.Recursion;
 
 namespace DataStructures
 {
@@ -64,11 +65,18 @@ namespace DataStructures
             //RemovePunctuations removePunctuations = new RemovePunctuations();
             //InitialsName initialsName = new InitialsName();
             //WayFairInInterviewQuestion wayFairInInterviewQuestion = new WayFairInInterviewQuestion();
-            WayFairIn2 wayFairIn2 = new WayFairIn2();
+            //WayFairIn2 wayFairIn2 = new WayFairIn2();
 
             /////-----------Trees------------//
             //Console.Write("\n Running Trees problems");
             //BinaryTree binaryTree = new BinaryTree();
+
+            /////-----------Amazon------------//
+            Console.Write("\n Running Trees problems");
+
+            /////-----------Amazon Recursion------------//
+            //LetterCombinationsPhoneNumber letterCombinationsPhoneNumber = new LetterCombinationsPhoneNumber();
+            GenerateParentheses generateParentheses = new GenerateParentheses();
 
         }
     }

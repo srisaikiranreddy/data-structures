@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Owbkttmqw8wyKd+jhIDZjAVGCXYNca/kf/3WunFJjxGDHapX0V87ogu4peWj13iIElZ59GUQJ07zFsMJyft/nA==",
+  "dgSpecHash": "cYnYr6RorabBWKSo3YNnc0eAZwO3o81zFxojzCpyarPJw+II+pnoCzS1VFGZs27XbO1HOIjQZ5mUoOaVlMx9FQ==",
   "success": true,
-  "projectFilePath": "/Users/saikiranpalle/Documents/DataStructuces/DataStructures/DataStructurcesTests/DataStructurcesTests.csproj",
+  "projectFilePath": "/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructurcesTests/DataStructurcesTests.csproj",
   "expectedPackageFiles": [
     "/Users/saikiranpalle/.nuget/packages/coverlet.collector/1.2.0/coverlet.collector.1.2.0.nupkg.sha512",
     "/Users/saikiranpalle/.nuget/packages/microsoft.codecoverage/16.5.0/microsoft.codecoverage.16.5.0.nupkg.sha512",

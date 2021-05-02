@@ -693,11 +693,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/saikiranpalle/Documents/DataStructuces/DataStructures/DataStructures/DataStructures.csproj",
+      "projectUniqueName": "/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/DataStructures.csproj",
       "projectName": "DataStructures",
-      "projectPath": "/Users/saikiranpalle/Documents/DataStructuces/DataStructures/DataStructures/DataStructures.csproj",
+      "projectPath": "/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/DataStructures.csproj",
       "packagesPath": "/Users/saikiranpalle/.nuget/packages/",
-      "outputPath": "/Users/saikiranpalle/Documents/DataStructuces/DataStructures/DataStructures/obj/",
+      "outputPath": "/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -713,6 +713,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "projectReferences": {}
         }
       },
@@ -724,6 +725,7 @@
     },
     "frameworks": {
       "netcoreapp2.1": {
+        "targetAlias": "netcoreapp2.1",
         "dependencies": {
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
@@ -742,7 +744,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
       }
     }
   }
