@@ -22,6 +22,8 @@
     <Folder Include="AmazonQuestions\Arrays\" />
     <Folder Include="AmazonQuestions\Recursion\" />
     <Folder Include="AmazonQuestions\LinkedLists\" />
+    <Folder Include="TestSyntax\" />
+    <Folder Include="BackTrack\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Sort\bubble.cs" />

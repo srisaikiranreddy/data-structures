@@ -1,17 +1,9 @@
 ﻿<Properties StartupConfiguration="{DEB9BDED-799C-4419-A8D2-A23E74E40DB2}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DataStructures/AmazonQuestions/Recursion/SingleWordDFS.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DataStructures/TestSyntax/Test.cs">
     <Files>
-      <File FileName="DataStructures/AmazonQuestions/Recursion/LetterCombinationsPhoneNumber.cs" Line="77" Column="14" />
-      <File FileName="DataStructures/Sort/BubbleSort.cs" Line="77" Column="10" />
-      <File FileName="DataStructures/AmazonQuestions/LinkedLists/AddTwoNumbers.cs" Line="19" Column="44" />
-      <File FileName="DataStructures/LinkedLists/SimpleLinkedList.cs" Line="1" Column="1" />
-      <File FileName="DataStructures/Sort/InsertionSort.cs" Line="1" Column="1" />
-      <File FileName="DataStructures/Arrays/Rotation/ArrrayRotation.cs" Line="52" Column="26" />
-      <File FileName="DataStructures/AmazonQuestions/Arrays/Test.cs" Line="28" Column="39" />
-      <File FileName="DataStructures/AmazonQuestions/Recursion/GenerateParentheses.cs" Line="26" Column="1" />
-      <File FileName="DataStructures/Program.cs" Line="78" Column="113" />
-      <File FileName="DataStructures/AmazonQuestions/Recursion/WordSearchDFS.cs" Line="70" Column="29" />
-      <File FileName="DataStructures/AmazonQuestions/Recursion/SingleWordDFS.cs" Line="1" Column="1" />
+      <File FileName="DataStructures/AmazonQuestions/Arrays/LongestIncreasingSubsequence.cs" Line="6" Column="44" />
+      <File FileName="DataStructures/Program.cs" Line="85" Column="108" />
+      <File FileName="DataStructures/TestSyntax/Test.cs" Line="25" Column="15" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,25 +12,33 @@
             <Node name="DataStructures" expanded="True">
               <Node name="AmazonQuestions" expanded="True">
                 <Node name="Arrays" expanded="True" />
-                <Node name="LinkedLists" expanded="True" />
-                <Node name="Recursion" expanded="True">
-                  <Node name="SingleWordDFS.cs" selected="True" />
-                </Node>
               </Node>
-              <Node name="Arrays" expanded="True">
-                <Node name="Rotation" expanded="True" />
-              </Node>
-              <Node name="LinkedLists" expanded="True" />
+              <Node name="Arrays" expanded="True" />
+              <Node name="BackTrack" expanded="True" />
+              <Node name="Math" expanded="True" />
               <Node name="Search" expanded="True" />
               <Node name="Sort" expanded="True" />
+              <Node name="Strings" expanded="True" />
+              <Node name="TestSyntax" expanded="True">
+                <Node name="Test.cs" selected="True" />
+              </Node>
+              <Node name="Trees" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State>
-          <Value>n</Value>
-          <Value>result</Value>
+          <Value>staticPointer</Value>
+          <Value>movePointer</Value>
+          <Value>s.Length</Value>
+          <Value>s[staticPointer]</Value>
+          <Value>s[movePointer]</Value>
+          <Value>chars[e]</Value>
+          <Value>chars[c]</Value>
+          <Value>chars[0]</Value>
+          <Value>phoneDigits[index]</Value>
+          <Value>letters[phoneDigits[index]]</Value>
         </State>
       </Pad>
     </Pads>
@@ -54,6 +54,18 @@
       <Breakpoint file="/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/AmazonQuestions/Recursion/LetterCombinationsPhoneNumber.cs" relfile="DataStructures/AmazonQuestions/Recursion/LetterCombinationsPhoneNumber.cs" line="66" column="1" />
       <Breakpoint file="/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/AmazonQuestions/Recursion/LetterCombinationsPhoneNumber.cs" relfile="DataStructures/AmazonQuestions/Recursion/LetterCombinationsPhoneNumber.cs" line="73" column="1" />
       <Breakpoint file="/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/AmazonQuestions/Recursion/GenerateParentheses.cs" relfile="DataStructures/AmazonQuestions/Recursion/GenerateParentheses.cs" line="26" column="1" />
+      <Breakpoint file="/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/AmazonQuestions/Arrays/LengthOfLongestSubstring.cs" relfile="DataStructures/AmazonQuestions/Arrays/LengthOfLongestSubstring.cs" line="25" column="1" />
+      <Breakpoint file="/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/AmazonQuestions/Arrays/LengthOfLongestSubstring.cs" relfile="DataStructures/AmazonQuestions/Arrays/LengthOfLongestSubstring.cs" line="28" column="1" />
+      <Breakpoint file="/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/BackTrack/PhoneDigits.cs" relfile="DataStructures/BackTrack/PhoneDigits.cs" line="40" column="1" />
+      <Breakpoint file="/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/BackTrack/PhoneDigits.cs" relfile="DataStructures/BackTrack/PhoneDigits.cs" line="53" column="1" />
+      <Breakpoint file="/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/Strings/PalindroneString.cs" relfile="DataStructures/Strings/PalindroneString.cs" line="39" column="1" />
+      <Breakpoint file="/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/Strings/PalindroneString.cs" relfile="DataStructures/Strings/PalindroneString.cs" line="32" column="1" />
+      <Breakpoint file="/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/Strings/PalindroneString.cs" relfile="DataStructures/Strings/PalindroneString.cs" line="48" column="1" />
+      <Breakpoint file="/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/AmazonQuestions/Arrays/MyAtoi.cs" relfile="DataStructures/AmazonQuestions/Arrays/MyAtoi.cs" line="18" column="1" />
+      <Breakpoint file="/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/AmazonQuestions/Arrays/MyAtoi.cs" relfile="DataStructures/AmazonQuestions/Arrays/MyAtoi.cs" line="31" column="1" />
+      <Breakpoint file="/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/AmazonQuestions/Arrays/MyAtoi.cs" relfile="DataStructures/AmazonQuestions/Arrays/MyAtoi.cs" line="30" column="1" />
+      <Breakpoint file="/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/AmazonQuestions/Arrays/LongestIncreasingSubsequence.cs" relfile="DataStructures/AmazonQuestions/Arrays/LongestIncreasingSubsequence.cs" line="14" column="1" />
+      <Breakpoint file="/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/AmazonQuestions/Arrays/LongestIncreasingSubsequence.cs" relfile="DataStructures/AmazonQuestions/Arrays/LongestIncreasingSubsequence.cs" line="27" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

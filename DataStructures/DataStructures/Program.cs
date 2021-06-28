@@ -10,6 +10,8 @@ using DataStructures.Arrays;
 using DataStructures.Arrays.Rotation;
 using DataStructures.Arrays.Rearrangement;
 using DataStructures.AmazonQuestions.Recursion;
+using DataStructures.AmazonQuestions.Arrays;
+using DataStructures.BackTrack;
 
 namespace DataStructures
 {
@@ -55,7 +57,7 @@ namespace DataStructures
             //SelectionSort selectSort = new SelectionSort();
 
             /////-----------Strings-----------//
-            //Console.Write("\n Running Strings problems");
+            Console.Write("\n Running Strings problems");
             //PandigitalConcatenation pandigitalConcatenation = new PandigitalConcatenation();
             //StringCopy stringCopy = new StringCopy();
             //MakeCheckStringPalindrome makeCheckStringPalindrome = new MakeCheckStringPalindrome();
@@ -76,8 +78,13 @@ namespace DataStructures
 
             /////-----------Amazon Recursion------------//
             //LetterCombinationsPhoneNumber letterCombinationsPhoneNumber = new LetterCombinationsPhoneNumber();
-            GenerateParentheses generateParentheses = new GenerateParentheses();
+            //GenerateParentheses generateParentheses = new GenerateParentheses();
+            //SingleWordDFS singleWordDFS = new SingleWordDFS();
+            //LengthOfLongestSubstring lengthOfLongestSubstring = new LengthOfLongestSubstring();
+            //MyAtoi myAtoi = new MyAtoi();
+            LongestIncreasingSubsequence longestIncreasingSubsequence = new LongestIncreasingSubsequence();
 
+            //PhoneDigits phoneDigits = new PhoneDigits();
         }
     }
 }
