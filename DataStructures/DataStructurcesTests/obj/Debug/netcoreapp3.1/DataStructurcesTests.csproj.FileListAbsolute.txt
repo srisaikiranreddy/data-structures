@@ -189,7 +189,7 @@
 /Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructurcesTests/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 /Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructurcesTests/bin/Debug/netcoreapp3.1/DataStructures.dll
 /Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructurcesTests/bin/Debug/netcoreapp3.1/DataStructures.pdb
-/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructurcesTests/obj/Debug/netcoreapp3.1/DataStructurcesTests.csprojAssemblyReference.cache
+/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructurcesTests/obj/Debug/netcoreapp3.1/DataStructurcesTests.csproj.AssemblyReference.cache
 /Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructurcesTests/obj/Debug/netcoreapp3.1/DataStructurcesTests.AssemblyInfoInputs.cache
 /Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructurcesTests/obj/Debug/netcoreapp3.1/DataStructurcesTests.AssemblyInfo.cs
 /Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructurcesTests/obj/Debug/netcoreapp3.1/DataStructurcesTests.csproj.CoreCompileInputs.cache

@@ -13,6 +13,7 @@ using DataStructures.AmazonQuestions.Recursion;
 using DataStructures.AmazonQuestions.Arrays;
 using DataStructures.BackTrack;
 using DataStructures.Arrays.Matrix;
+using DataStructures.Trees.Amazon;
 
 namespace DataStructures
 {
@@ -89,7 +90,9 @@ namespace DataStructures
 
             //PhoneDigits phoneDigits = new PhoneDigits();
 
-            Test test = new Test();
+            //Test test = new Test();
+
+            WordLadderII wordLadderII = new WordLadderII();
         }
     }
 }
