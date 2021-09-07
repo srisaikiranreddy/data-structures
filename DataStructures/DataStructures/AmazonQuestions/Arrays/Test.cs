@@ -1,5 +1,9 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading;
 
 namespace DataStructures.AmazonQuestions.Arrays
 {
@@ -7,27 +11,53 @@ namespace DataStructures.AmazonQuestions.Arrays
     {
         public Test()
         {
+            string[] nums1 = version1.Split("\\.");
+            string[] nums2 = version2.Split("\\.");
+            int n1 = nums1.Length, n2 = nums2.Length;
+
+            // compare versions
+            int i1, i2;
+            for (int i = 0; i < Math.Max(n1, n2); ++i)
+            {
+                i1 = i < n1 ? int.Parse(nums1[i]) : 0;
+                i2 = i < n2 ? int.Parse(nums2[i]) : 0;
+                if (i1 != i2)
+                {
+                    return i1 > i2 ? 1 : -1;
+                }
+            }
+            // the versions are equal
+            return 0;
         }
 
-        public void r(int[] nums)
+        public int CompareVersion(string version1, string version2)
         {
-            Hashtable map = new Hashtable();
+            string[] nums1 = version1.Split("\\.");
+            string[] nums2 = version2.Split("\\.");
+            int n1 = nums1.Length, n2 = nums2.Length;
 
-            for (int i = 0; i < nums.Length; i++)
+            List<int> vList = new List<string>(map.Values);
+            var t = vList.OrderByDescending(i => i).ToArray().Take(2).ToList();
+
+            // compare versions
+            int i1, i2;
+            for (int i = 0; i < Math.Max(n1, n2); ++i)
             {
-                if (map.ContainsKey(nums[i]))
-                    map[nums[i]] = Convert.ToInt32(map[nums[i]]) + 1;
-                else
-                    map.Add(nums[i], 0);
+                i1 = i < n1 ? int.Parse(nums1[i]) : 0;
+                i2 = i < n2 ? int.Parse(nums2[i]) : 0;
+                if (i1 != i2)
+                {
+                    return i1 > i2 ? 1 : -1;
+                }
             }
-
-            Queue queue = new Queue();
-            foreach (DictionaryEntry pair in map)
-            {
-                //if (pair.Value > 2)
-                //    queue.Dequeue();
-
-            }
+            // the versions are equal
+            return 0;
         }
+
+
+
+
+
+
     }
 }

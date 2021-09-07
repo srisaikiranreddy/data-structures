@@ -22,57 +22,50 @@ namespace DataStructures.Sort
             //Console.WriteLine("\n Print QuickSort String  " + SortString(input));
         }
 
-        //static int[] SortNumbers(int[] unSortedArray, int pivot, int left, int right)
-        //{
 
-        //}
+        static public int Partition(int[] arr, int left, int right)
+        {
+            int pivot;
+            pivot = arr[left];
+            while (true)
+            {
+                while (arr[left] < pivot)
+                {
+                    left++;
+                }
+                while (arr[right] > pivot)
+                {
+                    right--;
+                }
+                if (left < right)
+                {
+                    int temp = arr[right];
+                    arr[right] = arr[left];
+                    arr[left] = temp;
+                }
+                else
+                {
+                    return right;
+                }
+            }
 
-        //static int Partition(int[] unSortedArray, int pivot, int left, int right)
-        //{
-        //    int leftPointer = left;
-        //    int rightPointer = right;
-        //    while (unSortedArray[leftPointer] < unSortedArray[pivot])
-        //    {
-        //        leftPointer++;
-        //    }
-        //    while (rightPointer > 0 && unSortedArray[rightPointer] > unSortedArray[pivot])
-        //    {
-        //        rightPointer--;
-        //    }
+        }
 
-        //    if(leftPointer>=rightPointer)
-        //    {
-        //        break;
-        //    }
-        //    else
-        //    {
-        //        int temp = unSortedArray[leftPointer];
-        //        unSortedArray[leftPointer] = unSortedArray[rightPointer];
-        //        unSortedArray[rightPointer] = temp;
-        //    }
-
-        //    int temp = unSortedArray[leftPointer];
-        //    unSortedArray[leftPointer] = unSortedArray[rightPointer];
-        //    unSortedArray[rightPointer] = temp;
-        //    return leftPointer;
-        //}
-
-        //static string SortString(string unSortedString)
-        //{
-        //    char[] unSortedStringArray = unSortedString.ToCharArray();
-        //    for (int write = 0; write < unSortedStringArray.Length; write++)
-        //    {
-        //        for (int sort = write + 1; sort < unSortedStringArray.Length; sort++)
-        //        {
-        //            if (unSortedStringArray[write] > unSortedStringArray[sort])
-        //            {
-        //                char temp = unSortedStringArray[write];
-        //                unSortedStringArray[write] = unSortedStringArray[sort];
-        //                unSortedStringArray[sort] = temp;
-        //            }
-        //        }
-        //    }
-        //    return String.Join("", unSortedStringArray);
-        //}
+        static public void quickSort(int[] arr, int left, int right)
+        {
+            int pivot;
+            if (left < right)
+            {
+                pivot = Partition(arr, left, right);
+                if (pivot > 1)
+                {
+                    quickSort(arr, left, pivot - 1);
+                }
+                if (pivot + 1 < right)
+                {
+                    quickSort(arr, pivot + 1, right);
+                }
+            }
+        }
     }
 }

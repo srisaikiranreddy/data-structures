@@ -1,9 +1,7 @@
 ﻿<Properties StartupConfiguration="{DEB9BDED-799C-4419-A8D2-A23E74E40DB2}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DataStructures/TestSyntax/Test.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DataStructures/Trees/Amazon/WordLadderII.cs">
     <Files>
-      <File FileName="DataStructures/AmazonQuestions/Arrays/LongestIncreasingSubsequence.cs" Line="6" Column="44" />
-      <File FileName="DataStructures/Program.cs" Line="85" Column="108" />
-      <File FileName="DataStructures/TestSyntax/Test.cs" Line="25" Column="15" />
+      <File FileName="DataStructures/Trees/Amazon/WordLadderII.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,33 +10,21 @@
             <Node name="DataStructures" expanded="True">
               <Node name="AmazonQuestions" expanded="True">
                 <Node name="Arrays" expanded="True" />
+                <Node name="Recursion" expanded="True" />
               </Node>
-              <Node name="Arrays" expanded="True" />
-              <Node name="BackTrack" expanded="True" />
+              <Node name="LinkedLists" expanded="True" />
               <Node name="Math" expanded="True" />
+              <Node name="Queues" expanded="True" />
               <Node name="Search" expanded="True" />
               <Node name="Sort" expanded="True" />
               <Node name="Strings" expanded="True" />
-              <Node name="TestSyntax" expanded="True">
-                <Node name="Test.cs" selected="True" />
+              <Node name="Trees" expanded="True">
+                <Node name="Amazon" expanded="True">
+                  <Node name="WordLadderII.cs" selected="True" />
+                </Node>
               </Node>
-              <Node name="Trees" expanded="True" />
             </Node>
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State>
-          <Value>staticPointer</Value>
-          <Value>movePointer</Value>
-          <Value>s.Length</Value>
-          <Value>s[staticPointer]</Value>
-          <Value>s[movePointer]</Value>
-          <Value>chars[e]</Value>
-          <Value>chars[c]</Value>
-          <Value>chars[0]</Value>
-          <Value>phoneDigits[index]</Value>
-          <Value>letters[phoneDigits[index]]</Value>
         </State>
       </Pad>
     </Pads>
@@ -64,8 +50,9 @@
       <Breakpoint file="/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/AmazonQuestions/Arrays/MyAtoi.cs" relfile="DataStructures/AmazonQuestions/Arrays/MyAtoi.cs" line="18" column="1" />
       <Breakpoint file="/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/AmazonQuestions/Arrays/MyAtoi.cs" relfile="DataStructures/AmazonQuestions/Arrays/MyAtoi.cs" line="31" column="1" />
       <Breakpoint file="/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/AmazonQuestions/Arrays/MyAtoi.cs" relfile="DataStructures/AmazonQuestions/Arrays/MyAtoi.cs" line="30" column="1" />
-      <Breakpoint file="/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/AmazonQuestions/Arrays/LongestIncreasingSubsequence.cs" relfile="DataStructures/AmazonQuestions/Arrays/LongestIncreasingSubsequence.cs" line="14" column="1" />
-      <Breakpoint file="/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/AmazonQuestions/Arrays/LongestIncreasingSubsequence.cs" relfile="DataStructures/AmazonQuestions/Arrays/LongestIncreasingSubsequence.cs" line="27" column="1" />
+      <Breakpoint file="/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/AmazonQuestions/Arrays/RomanToInt.cs" relfile="DataStructures/AmazonQuestions/Arrays/RomanToInt.cs" line="31" column="1" />
+      <Breakpoint file="/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/Arrays/Matrix/MatrixRotate.cs" relfile="DataStructures/Arrays/Matrix/MatrixRotate.cs" line="9" column="1" />
+      <Breakpoint file="/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/Program.cs" relfile="DataStructures/Program.cs" line="92" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

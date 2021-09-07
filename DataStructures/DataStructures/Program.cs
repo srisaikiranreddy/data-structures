@@ -12,6 +12,7 @@ using DataStructures.Arrays.Rearrangement;
 using DataStructures.AmazonQuestions.Recursion;
 using DataStructures.AmazonQuestions.Arrays;
 using DataStructures.BackTrack;
+using DataStructures.Arrays.Matrix;
 
 namespace DataStructures
 {
@@ -28,6 +29,7 @@ namespace DataStructures
             //Array_i__i array_I__ = new Array_i__i();
             //SecondOccurenceValue secondOccurenceValue = new SecondOccurenceValue();
             //FirstRepeatWordSentence firstRepeatWordSentence = new FirstRepeatWordSentence();
+            //MatrixRotate matrix = new MatrixRotate();
 
             /////----------LinkedLists-------------//
             //Console.Write("Running LinkedLists problems");
@@ -74,7 +76,7 @@ namespace DataStructures
             //BinaryTree binaryTree = new BinaryTree();
 
             /////-----------Amazon------------//
-            Console.Write("\n Running Trees problems");
+            //Console.Write("\n Running Trees problems");
 
             /////-----------Amazon Recursion------------//
             //LetterCombinationsPhoneNumber letterCombinationsPhoneNumber = new LetterCombinationsPhoneNumber();
@@ -82,9 +84,12 @@ namespace DataStructures
             //SingleWordDFS singleWordDFS = new SingleWordDFS();
             //LengthOfLongestSubstring lengthOfLongestSubstring = new LengthOfLongestSubstring();
             //MyAtoi myAtoi = new MyAtoi();
-            LongestIncreasingSubsequence longestIncreasingSubsequence = new LongestIncreasingSubsequence();
+            //LongestIncreasingSubsequence longestIncreasingSubsequence = new LongestIncreasingSubsequence();
+            //RomanToInt romanToInt = new RomanToInt();
 
             //PhoneDigits phoneDigits = new PhoneDigits();
+
+            Test test = new Test();
         }
     }
 }

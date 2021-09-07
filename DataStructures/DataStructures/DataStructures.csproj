@@ -24,8 +24,13 @@
     <Folder Include="AmazonQuestions\LinkedLists\" />
     <Folder Include="TestSyntax\" />
     <Folder Include="BackTrack\" />
+    <Folder Include="Arrays\Matrix\" />
+    <Folder Include="Trees\Amazon\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Sort\bubble.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Trees\Amazon\" />
   </ItemGroup>
 </Project>
