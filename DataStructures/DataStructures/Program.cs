@@ -92,7 +92,11 @@ namespace DataStructures
 
             //Test test = new Test();
 
-            WordLadderII wordLadderII = new WordLadderII();
+            //WordLadderII wordLadderII = new WordLadderII();
+
+            //MultiplyStrings multiplyStrings = new MultiplyStrings();
+
+            Test test = new Test();
         }
     }
 }

@@ -32,3 +32,4 @@
 /Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/obj/Debug/netcoreapp2.1/DataStructures.dll
 /Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/obj/Debug/netcoreapp2.1/DataStructures.pdb
 /Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/obj/Debug/netcoreapp2.1/DataStructures.genruntimeconfig.cache
+/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/obj/Debug/netcoreapp2.1/DataStructures.csproj.AssemblyReference.cache

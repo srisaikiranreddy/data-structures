@@ -1,29 +1,22 @@
 ﻿<Properties StartupConfiguration="{DEB9BDED-799C-4419-A8D2-A23E74E40DB2}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DataStructures/AmazonQuestions/Arrays/Test.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DataStructuresOptimzed/LinkedLists/AddTwoNumbers.cs">
     <Files>
-      <File FileName="DataStructures/Trees/Amazon/WordLadderII.cs" Line="7" Column="30" />
-      <File FileName="DataStructures/Program.cs" Line="95" Column="60" />
-      <File FileName="DataStructures/AmazonQuestions/Arrays/Test.cs" Line="30" Column="24" />
+      <File FileName="DataStructures/AmazonQuestions/Arrays/MultiplyStrings.cs" Line="42" Column="1" />
+      <File FileName="DataStructures/Program.cs" />
+      <File FileName="DataStructures/Sort/QuickSort.cs" />
+      <File FileName="DataStructures/AmazonQuestions/Recursion/GenerateParentheses.cs" />
+      <File FileName="DataStructures/AmazonQuestions/Arrays/Test.cs" Line="89" Column="14" />
+      <File FileName="DataStructuresOptimzed/Program.cs" Line="1" Column="1" />
+      <File FileName="DataStructuresOptimzed/LinkedLists/AddTwoNumbers.cs" Line="20" Column="9" />
+      <File FileName="DataStructuresOptimzed/LinkedLists/ListNode.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="DataStructures" expanded="True">
-            <Node name="DataStructures" expanded="True">
-              <Node name="AmazonQuestions" expanded="True">
-                <Node name="Arrays" expanded="True">
-                  <Node name="Test.cs" selected="True" />
-                </Node>
-                <Node name="Recursion" expanded="True" />
-              </Node>
-              <Node name="LinkedLists" expanded="True" />
-              <Node name="Math" expanded="True" />
-              <Node name="Queues" expanded="True" />
-              <Node name="Search" expanded="True" />
-              <Node name="Sort" expanded="True" />
-              <Node name="Strings" expanded="True" />
-              <Node name="Trees" expanded="True">
-                <Node name="Amazon" expanded="True" />
+            <Node name="DataStructuresOptimzed" expanded="True">
+              <Node name="LinkedLists" expanded="True">
+                <Node name="AddTwoNumbers.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -31,6 +24,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.DataStructuresOptimzed FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.DataStructures PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -56,6 +50,13 @@
       <Breakpoint file="/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/Arrays/Matrix/MatrixRotate.cs" relfile="DataStructures/Arrays/Matrix/MatrixRotate.cs" line="9" column="1" />
       <Breakpoint file="/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/Program.cs" relfile="DataStructures/Program.cs" line="93" column="1" />
       <Breakpoint file="/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/Program.cs" relfile="DataStructures/Program.cs" line="95" column="1" />
+      <Breakpoint file="/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/Trees/Amazon/WordLadderII.cs" relfile="DataStructures/Trees/Amazon/WordLadderII.cs" line="16" column="1" />
+      <Breakpoint file="/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/Trees/Amazon/WordLadderII.cs" relfile="DataStructures/Trees/Amazon/WordLadderII.cs" line="22" column="1" />
+      <Breakpoint file="/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/Program.cs" relfile="DataStructures/Program.cs" line="100" column="1" />
+      <Breakpoint file="/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/Program.cs" relfile="DataStructures/Program.cs" line="97" column="1" />
+      <Breakpoint file="/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/AmazonQuestions/Arrays/MultiplyStrings.cs" relfile="DataStructures/AmazonQuestions/Arrays/MultiplyStrings.cs" line="10" column="1" />
+      <Breakpoint file="/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/AmazonQuestions/Arrays/Test.cs" relfile="DataStructures/AmazonQuestions/Arrays/Test.cs" line="65" column="1" />
+      <Breakpoint file="/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructures/Program.cs" relfile="DataStructures/Program.cs" line="99" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

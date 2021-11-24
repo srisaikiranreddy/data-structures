@@ -1,0 +1,6 @@
+/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructuresOptimzed/bin/Debug/DataStructuresOptimzed.exe
+/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructuresOptimzed/bin/Debug/DataStructuresOptimzed.pdb
+/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructuresOptimzed/obj/Debug/DataStructuresOptimzed.csproj.AssemblyReference.cache
+/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructuresOptimzed/obj/Debug/DataStructuresOptimzed.csproj.CoreCompileInputs.cache
+/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructuresOptimzed/obj/Debug/DataStructuresOptimzed.exe
+/Users/saikiranpalle/Documents/GitHub/DataStructuces/DataStructures/DataStructuresOptimzed/obj/Debug/DataStructuresOptimzed.pdb

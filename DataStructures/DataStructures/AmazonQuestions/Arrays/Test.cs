@@ -9,8 +9,13 @@ namespace DataStructures.AmazonQuestions.Arrays
 {
     public class Test
     {
+        public int Priority { get; set; }
+        public int DateStart { get; set; }
+        public int DateEnd { get; set; }
+
         public Test()
         {
+
             //string[] nums1 = version1.Split("\\.");
             //string[] nums2 = version2.Split("\\.");
             //int n1 = nums1.Length, n2 = nums2.Length;
@@ -28,6 +33,7 @@ namespace DataStructures.AmazonQuestions.Arrays
             //}
             //// the versions are equal
             //return 0;
+            PrintOutput();
         }
 
         //public int CompareVersion(string version1, string version2)
@@ -53,6 +59,37 @@ namespace DataStructures.AmazonQuestions.Arrays
         //    //// the versions are equal
         //    //return 0;
         //}
+
+        private string PrintOutput()
+        {
+            StringBuilder builder = new StringBuilder();
+
+            builder.Append("Hello-");
+
+            int[] numbers = new int[10];
+
+            //Time Complexity O(n) // Space Complexity O(1)
+            for (int i=0;i<=10;i++)
+            {
+                numbers[i] = 10 * i + 1;
+            }
+
+
+            if(Priority<90)
+            {
+                DateStart = 0; DateEnd = 90;
+            }
+            else if (90< Priority && Priority < 180)
+            {
+                DateStart = 1000; DateEnd = 5000;
+            }
+            else
+            {
+                DateStart = 5000; DateEnd = int.MaxValue;
+            }
+
+            return builder.Append(string.Join(",", numbers)).ToString();
+        }
 
 
 
