@@ -34,6 +34,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="LinkedLists\AddTwoNumbers.cs" />
     <Compile Include="LinkedLists\ListNode.cs" />
+    <Compile Include="LinkedLists\MergeTwoLists.cs" />
+    <Compile Include="LinkedLists\ReverseKGroup.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="LinkedLists\" />
